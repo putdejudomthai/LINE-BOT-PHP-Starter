@@ -8,9 +8,9 @@ $db = substr($url["path"], 1);
 
 $conn = new mysqli($server, $username, $password, $db);
 
-echo "$url\n";
-echo "$server, $username, $password, $db\n";
-print_r($conn);
+//echo "$url\n";
+//echo "$server, $username, $password, $db\n";
+//print_r($conn);
 
 // Check connection
 if (!$conn) {
