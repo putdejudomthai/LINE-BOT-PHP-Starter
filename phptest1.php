@@ -6,6 +6,9 @@
 
 <?php
 echo "Hello World!";
+  $x = 5 /* + 15 */ + 5;
+echo $x; 
+  
 ?>
 
 </body>
