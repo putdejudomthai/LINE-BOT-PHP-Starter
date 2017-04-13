@@ -15,7 +15,13 @@ echo "I love $txt!" . "<br>";
   
 $a = 5;
 $b = 4;
-echo $a + $b;
+echo $a + $b . "<br>";
+  
+$x1 = 5985;
+var_dump($x1);
+  
+$x2 = 10.365;
+var_dump($x2);
   
 ?>
 
