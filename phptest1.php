@@ -8,7 +8,10 @@
 echo "Hello World!" . "<br>";
 
 $x = 5 /* + 15 */ + 5;
-echo $x; 
+echo $x . "<br>"; 
+  
+$txt = "coding";
+echo "I love $txt!";
   
 ?>
 
